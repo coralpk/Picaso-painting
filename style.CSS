@@ -1,0 +1,119 @@
+#bg-section-1 { 
+    padding: 10px; 
+    display: flex; 
+    gap: 20px;
+}
+    #bg-section-2 { 
+        padding: 10px;
+    }
+    
+    .bg-top-box { 
+        background-color: teal; 
+        height: 100px; 
+        width: 200px;
+    }
+    
+    .bg-bottom-box { 
+        background-color: teal; 
+        width: 640px; 
+        height: 200px;
+    }
+    
+    .yellow-circle { 
+        background-color: goldenrod; 
+        border-radius: 500px;
+    }
+    
+    .pink-circle { 
+        background-color: salmon; 
+        border-radius: 500px;
+    }
+    
+    .big-circle { 
+        height: 75px; 
+        width: 75px; 
+        margin-right: 20px;
+    }
+    
+    .lil-circle { 
+        height: 25px; 
+        width: 25px;
+    }
+    
+    #bg-top-box-1 { 
+        display: flex; 
+        justify-content: end; 
+        align-items: center;
+    }
+    
+    #lil-yellow { 
+        position: absolute; 
+        top: 170px; 
+        left: 100px;
+    }
+    
+    #lil-pink-1 { 
+        position: absolute; 
+        top: 30px; 
+        left: 50px;
+    }
+    
+    #lil-pink-2 { 
+        position: absolute; 
+        top: 100px; 
+        left: 50px;
+    }
+    
+    #lil-pink-3 { 
+        position: absolute; 
+        top: 50px; 
+        left: 280px;
+    }
+    
+    #big-pink-penguin { 
+        position: absolute; 
+        top: 80px; 
+        left: 190px;
+    }
+    
+    .dark-green-tree { 
+        position: absolute; 
+        width: 0; 
+        height: 0; 
+        border-left: 100px solid transparent; 
+        border-right: 100px solid transparent; 
+        border-bottom: 250px solid darkgreen; 
+        margin-right: 90px;
+    }
+    
+    .light-green-tree { 
+            position: absolute; 
+            width: 0; 
+            height: 0; 
+            border-left: 90px solid transparent; 
+            border-right: 90px solid transparent; 
+            border-bottom: 160px solid lightgreen; 
+            margin-right: 10px;
+        }
+        
+        .triangles-parent { 
+            height: 100%; 
+            display: flex; 
+            align-items: end; 
+            justify-content: end;
+        }
+        
+        #last-green-bar { 
+            height: 20px; 
+            background-color: lightgreen; 
+            margin: 0px 10px 10px 10px; 
+            width: 640px;
+        }
+        
+        .figures { 
+            height: 100%; 
+            display: flex; 
+            align-items: end; 
+            justify-content: end; 
+            border: 2px solid black;
+        }
